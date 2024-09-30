@@ -1,4 +1,4 @@
-﻿//Laboration 1
+﻿//Laboration 1 - Find numbers in string with characters
 
 string input = "29535123p48723487597645723645";
 double sum = 0;
