@@ -21,14 +21,14 @@ for (int i = 0; i < input.Length; i++)
         //string start = result.ToString();
 
         string partOne = input.Substring(0, i);
-        string removed = input.Substring(i, getNumber.Length);
+        string number = input.Substring(i, getNumber.Length);
         string partTwo = input.Substring(i + getNumber.Length);
 
         //Print the seuqence to console, with the patterns colored green
         Console.ForegroundColor = ConsoleColor.White;
         Console.Write(partOne);
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.Write(removed);
+        Console.Write(number);
         Console.ForegroundColor= ConsoleColor.White;
         Console.Write(partTwo + "\n");
 
