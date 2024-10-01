@@ -18,8 +18,6 @@ for (int i = 0; i < input.Length; i++)
 
     if (nextOccurance > 0 && noLetters)
     {
-        //string start = result.ToString();
-
         string partOne = input.Substring(0, i);
         string number = input.Substring(i, getNumber.Length);
         string partTwo = input.Substring(i + getNumber.Length);
